@@ -1,0 +1,10 @@
+{
+  "Image": "alpine:latest",
+  "Cmd": "/bin/sh",
+  "Env": [
+    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  ],
+  "Name": "alpine",
+  "Author": "info@skyport.dev",
+  "AuthorName": "Skyport Labs"
+}
