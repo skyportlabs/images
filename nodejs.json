@@ -1,0 +1,8 @@
+{
+  "Image": "quay.io/skyport/node",
+  "Cmd": "",
+  "Env": [],
+  "Name": "nodejs",
+  "Author": "info@skyport.dev",
+  "AuthorName": "Skyport Labs"
+}
