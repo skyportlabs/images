@@ -1,5 +1,6 @@
 [
   "https://raw.githubusercontent.com/skyportlabs/images/main/ubuntu.json",
   "https://raw.githubusercontent.com/skyportlabs/images/main/debian.json",
-  "https://raw.githubusercontent.com/skyportlabs/images/main/alpine.json"
+  "https://raw.githubusercontent.com/skyportlabs/images/main/alpine.json",
+  "https://raw.githubusercontent.com/skyportlabs/images/main/nodejs.json"
 ]
