@@ -1,0 +1,10 @@
+{
+  "Image": "quay.io/skyport/paper",
+  "Cmd": "",
+  "Env": [],
+  "Name": "paper",
+  "Author": "info@skyport.dev",
+  "AuthorName": "Skyport Labs",
+  "ConfigFilePath": "server.properties",
+  "ConfigFileContent": "server-port={{primaryPort}}"
+}
