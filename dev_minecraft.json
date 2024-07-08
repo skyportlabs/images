@@ -1,0 +1,11 @@
+{
+    "Image": "java:java17",
+    "Cmd": "",
+    "Env": [],
+    "Name": "Dev Minecraft",
+    "Author": "info@skyport.dev",
+    "AuthorName": "Skyport Labs",
+    "ConfigFilePath": "server.properties",
+    "ConfigFileContent": "server-port={{primaryPort}}"
+  }
+  
