@@ -1,11 +1,19 @@
 {
-    "Image": "java:java17",
-    "Cmd": "",
-    "Env": [],
-    "Name": "Dev Minecraft",
-    "Author": "info@skyport.dev",
-    "AuthorName": "Skyport Labs",
-    "ConfigFilePath": "server.properties",
-    "ConfigFileContent": "server-port={{primaryPort}}"
-  }
-  
+  "Image": "java:java17",
+  "Cmd": "",
+  "Env": [
+    "START=java -jar server.jar"
+  ],
+  "Scripts": {
+    "install": {
+      "URL": "https://download.getbukkit.org/spigot/spigot-1.21.jar",
+      "renamefrom": "spigot-1.21.jar",
+      "renameto": "server.jar"
+    }
+  },
+  "Name": "Dev Minecraft",
+  "Author": "info@skyport.dev",
+  "AuthorName": "Skyport Labs",
+  "ConfigFilePath": "server.properties",
+  "ConfigFileContent": "server-port={{primaryPort}}"
+}
